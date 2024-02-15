@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+}
+
+.main{
+    display: flex ;
+    align-content: center;
+    padding: 20px;
+}
+.btn-rgr{
+    color: aqua;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+h1{
+    width: 200px;
+    font-size: 45px;
+}
+@media only  screen and (max-width:833px) {
+    .btn-rgr{
+        color: aqua;
+        padding: 20px;
+        /* background-color: aqua; */
+    }
+    h1{
+        width: 200px;
+        color: blueviolet;
+        font-size: 20px;
+    }
+    main{
+        padding: 0px;
+    }
+}
