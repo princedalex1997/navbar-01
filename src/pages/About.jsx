@@ -45,6 +45,7 @@ const About = () => {
           <div key={item._id} className="container">
             <div className="main">
               <h1>{item.name}</h1>
+              <h1>{item.email}</h1>
               <div className="btn-rgr">
                 <button onClick={(e) => deleteUser(item._id)}>Delete</button>
               </div>
